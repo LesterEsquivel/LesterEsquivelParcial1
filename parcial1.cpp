@@ -16,5 +16,17 @@ int main() {
     std::cout << "La suma de los numeros impares es: " << a << std::endl;
     std::cout << "La suma de los numeros pares es: " << b << std::endl;
 
-    return 0;
+    //usando la estructura de control "while" has un ciclo iniciando en 0, que incremente de 3 en 3 hasta llegar al primer impar despues de 30 usando c++
+    //ejercicio 2.2
+        int i = 0;
+
+        while (i <= 30 || (i + 3) % 2 != 0) {
+            i += 3;
+        }
+
+        std::cout << "El primer numero impar despues de 30 es: " << i << std::endl;
+
+        return 0;
+
 }
+
